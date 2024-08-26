@@ -134,10 +134,10 @@ int main()
         }
         else if (owe == 0 && get != 0)
         {
-            cout << v[i] << " Will get money from " << endl;
+            cout << v[i] << " Will recieve money from " << endl;
             for (auto it : toget)
             {
-                cout << v[it.second] << " Amount " << it.first << endl;
+                cout << v[it.second] << " ,  " << it.first<<" Rupees" << endl;
             }
         }
         else
@@ -147,7 +147,7 @@ int main()
 
             for (auto it : towe)
             {
-                cout << v[it.second] << " Amount " << it.first << endl;
+                cout << v[it.second]<<" , " <<it.first<<"Rupees" << endl;
             }
         }
         cout << endl;

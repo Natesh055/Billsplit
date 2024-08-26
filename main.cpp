@@ -11,7 +11,7 @@ int main()
     cout << endl;
     vector<string> v;
 
-    int index = 0;
+    int index = n;
     while (n--)
     {
         cout << "Enter First Name of " << ++index << endl;
