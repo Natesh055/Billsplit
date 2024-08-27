@@ -117,13 +117,13 @@ int main()
 
     vector<vector<float>> finalmatrix(n, vector<float>(n, 0));
 
-    for (int i = 0; i < n; i++)
+    for (auto i : visitedplustable)
     {
         for (int j = 0; j < n; j++)
         {
             for (int k = 0; k < n; k++)
             {
-                finalmatrix[j][k] += visitedplustable[i][j][k];
+                finalmatrix[j][k] += i[j][k];
             }
         }
     }
